@@ -32,7 +32,8 @@
 
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">
+                        <h3>
+                            Products
                         </h3>
                         <div class="float-sm-right">
                             <a href="{{ route('create') }}">

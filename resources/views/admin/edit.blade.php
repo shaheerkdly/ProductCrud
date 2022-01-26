@@ -27,6 +27,9 @@
             <div class="col-12">
                 <!-- general form elements -->
                 <div class="card card-primary">
+                    <div class="card-header">
+                        <h4>Edit Product</h4>
+                    </div>
                     <!-- form start -->
                     <form action="{{ route('update', $product->id) }}" method="POST" id="product-form-edit">
                         @method('PUT')

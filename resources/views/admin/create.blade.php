@@ -27,6 +27,9 @@
             <div class="col-12">
                 <!-- general form elements -->
                 <div class="card card-primary">
+                    <div class="card-header">
+                        <h4>Create Product</h4>
+                    </div>
                     <!-- form start -->
                     <form action="{{ route('store') }}" method="POST" id="product-form" enctype="multipart/form-data">
                         @csrf
